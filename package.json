@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js --ignore client"
+    "start": "nodemon server.js --ignore client",
+    "build": "babel server.js --out-file server.compiled.js"
   },
   "author": "Biniam Alemayehu",
   "license": "ISC",
@@ -19,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/binitutor/elastic-beanstalk-node/issues"
   },
-  "homepage": "https://github.com/binitutor/elastic-beanstalk-node#readme"
+  "homepage": "https://github.com/binitutor/elastic-beanstalk-node#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
+  }
 }
