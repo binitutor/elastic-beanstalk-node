@@ -1,0 +1,23 @@
+{
+  "name": "ebs_express_reactjs",
+  "version": "1.0.0",
+  "description": "Test React and Express Node app deployment to AWS Elastic Beanstalk",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js --ignore client"
+  },
+  "author": "Biniam Alemayehu",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/binitutor/elastic-beanstalk-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/binitutor/elastic-beanstalk-node/issues"
+  },
+  "homepage": "https://github.com/binitutor/elastic-beanstalk-node#readme"
+}
